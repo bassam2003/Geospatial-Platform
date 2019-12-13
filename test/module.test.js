@@ -8,12 +8,12 @@ const chai = require("chai"),
 chai.should();
 
 describe("Negative Scenarios", () => {
-	it("should not have config object undefined", function() {
+	it("should not have undefined config object", function() {
 		expect(function() {
 			new AthenaExpress();
 		}).to.throw(TypeError, "Config object not present in the constructor");
 	});
-	it("should not have aws object undefined", function() {
+	it("should not have undefined aws object ", function() {
 		expect(function() {
 			const athenaExpress = new AthenaExpress({});
 		}).to.throw(

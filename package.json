@@ -1,42 +1,26 @@
 {
-  "name": "athena-express",
-  "version": "5.1.1",
-  "description": "Athena-Express makes it easier to execute SQL queries on Amazon Athena by consolidating & astracting several methods in the AWS SDK",
+  "name": "Geospatial-Platform",
+  "version": "1.0.0",
+  "description": "Geospatial-Platform to execute SQL queries on Amazon Athena",
   "main": "./lib/index.js",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha",
-    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "start": "npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ghdna/athena-express.git"
+    "url": "git+https://github.com/bassam2003/Geospatial-Platform.git"
   },
-  "keywords": [
-    "aws",
-    "athena",
-    "amazon",
-    "amazon",
-    "web",
-    "services",
-    "sql",
-    "database"
-  ],
-  "author": "Gary Arora (https://twitter.com/AroraGary)",
+  "author": "Bassam Sadi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ghdna/athena-express/issues"
+    "url": "https://github.com/bassam2003/Geospatial-Platform/issues"
   },
-  "homepage": "https://github.com/ghdna/athena-express#readme",
   "devDependencies": {
     "aws-sdk": "^2.510.0",
     "chai": "^4.2.0",
-    "coveralls": "^3.0.6",
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "mocha-lcov-reporter": "^1.3.0"
-  },
-  "dependencies": {
-    "csvtojson": "^2.0.10"
   }
 }
