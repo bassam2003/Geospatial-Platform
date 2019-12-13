@@ -1,4 +1,4 @@
-### Geospatial-Platform performs the following steps 
+### Geospatial-Platform code performs the following steps 
 
 1.	Initiates a query execution.
 2.	Checks if the query has finished executing
@@ -7,7 +7,7 @@
 5. Handles specific testing errors 'export AthenaExpress constructor', and 'Negative Scenarios'
 6.	Handles specific Athena express errors `ThrottlingException`, `NetworkingError`, and `TooManyRequestsException`
 
-### Instructions to run the app
+### Instructions to run the code
 
  1. git clone https://github.com/bassam2003/Geospatial-Platform
  2. cd Geospatial-Platform
