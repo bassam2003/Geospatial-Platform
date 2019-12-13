@@ -1,10 +1,11 @@
-### Geospatial-Platform  bundles the following steps 
+### Geospatial-Platform performs the following steps 
 
-1.	Initiates a query execution
-2.	Keeps checking until the query has finished executing
-3.	Fetches the results of the query execution from Amazon S3
-4.	Formats the results into a clean, user-friendly JSON array
-5.	Handles specific Athena errors `ThrottlingException`, `NetworkingError`, and `TooManyRequestsException`
+1.	Initiates a query execution.
+2.	Checks if the query has finished executing
+3.	Fetches the results of the query from Amazon S3
+4.	Formats the results into a JSON array
+5. Handles specific testing errors 'export AthenaExpress constructor', and 'Negative Scenarios'
+6.	Handles specific Athena express errors `ThrottlingException`, `NetworkingError`, and `TooManyRequestsException`
 
 ### Instructions to run the app
 
@@ -15,10 +16,10 @@
 
 ### Prerequisites
 
--   You will need either an `IAM Role` (if you're running `Geospatial-Platform` on AWS Lambda or AWS EC2) **OR** an `IAM User` with `accessKeyId` and `secretAccessKey` (if you're running `Geospatial-Platform` on a standalone NodeJS application)
--   This IAM role/user must have `AmazonAthenaFullAccess` and `AmazonS3FullAccess` 
+-  You will need an 'IAM Role' If you're running the App on AWS Lambda.
+-  You will need an 'IAM User' with 'accessKeyId' and 'secretAccessKey' if you're running the App` on a standalone NodeJS application.
+-  The IAM role/user must have 'AmazonAthenaFullAccess' and 'AmazonS3FullAccess'. 
 
 ### Configuration
-- `Geospatial-Platform` needs an AWS SDK object created with relevant permissions as mentioned in the prerequisites above.
-- This AWS object is passed within the constructor so that it can invoke Amazon Athena SDK. 
- It creates an `aws` object by explicitly passing in the `accessKeyId` and `secretAccessKey` generated in prerequisites
+- You need AWS SDK object created with relevant permissions.
+- The AWS SDK object is passed within the constructor to invoke Amazon Athena SDK.
