@@ -1,6 +1,4 @@
-## How Geospatial-Platform is using SQL queries on Amazon Athena
-
-Geospatial-Platform  bundles the following steps
+### Geospatial-Platform  bundles the following steps 
 
 1.	Initiates a query execution
 2.	Keeps checking until the query has finished executing
@@ -8,7 +6,7 @@ Geospatial-Platform  bundles the following steps
 4.	Formats the results into a clean, user-friendly JSON array
 5.	Handles specific Athena errors `ThrottlingException`, `NetworkingError`, and `TooManyRequestsException`
 
-## Instructions to run the app
+### Instructions to run the app
 
  1. git clone https://github.com/bassam2003/Geospatial-Platform
  2. cd Geospatial-Platform

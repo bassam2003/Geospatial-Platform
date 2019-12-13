@@ -1,6 +1,6 @@
 {
   "name": "Geospatial-Platform",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Geospatial-Platform to execute SQL queries on Amazon Athena",
   "main": "./lib/index.js",
   "scripts": {
@@ -12,7 +12,6 @@
     "url": "git+https://github.com/bassam2003/Geospatial-Platform.git"
   },
   "author": "Bassam Sadi",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bassam2003/Geospatial-Platform/issues"
   },

@@ -4,7 +4,7 @@ const expect = require("chai").expect,
 	athenaExpress = require("..");
 
 describe("Geospatial-Platform Structure", function() {
-	it("should export AthenaExpress constructor from package", function() {
+	it("should export AthenaExpress constructor from the package", function() {
 		expect(athenaExpress).to.be.a("function");
 		expect(athenaExpress).to.equal(athenaExpress.AthenaExpress);
 	});

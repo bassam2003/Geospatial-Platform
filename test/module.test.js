@@ -7,7 +7,7 @@ const chai = require("chai"),
 
 chai.should();
 
-describe("Negative Scenarios", () => {
+describe("Possible wrong Scenarios", () => {
 	it("should not have undefined config object", function() {
 		expect(function() {
 			new AthenaExpress();
